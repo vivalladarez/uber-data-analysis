@@ -63,3 +63,18 @@ Atributos | Definição
 <p align="center">
   <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/00e46e0d-c4d1-4f17-9bef-120ace677d4c" alt="Image6">
 </p>
+
+# Clusterização
+
+<p align="center">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/21a05ad0-2874-45ea-a560-56fc451162b9" alt="Image7">
+</p>
+
+### Cluster 0 | Regular
+Viagens tradizionais e proporcionais ao histórico
+### Cluster 1 | Viajante 
+Corridas mais distantes, com longa duração e mais caras
+### Cluster 2 | Altas Tarifas
+Viagens realizadas com alta dinamica no aplicativo
+
+
