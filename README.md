@@ -31,43 +31,43 @@ Atributos | Definição
 1. Como a distância percorrida influencia no valor da tarifa e na duração da viagem?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/f4d416fe-e1d0-482c-9f01-f636719ed072" alt="Image1">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/bfc99fd6-9f72-40e6-8f92-1eed37a357dc" alt="Image1">
 </p>
 
 2. Qual foi o total de viagens completadas nos anos anteriores?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/b3980c2e-3fe2-4aed-8826-b8d50e6deebc" alt="Image2">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/9072d3dd-85b3-489a-bc4d-650153f723de" alt="Image2">
 </p>
 
 3. Quais foram os valores máximos, mínimos e médios da tarifa, distância percorrida e duração da viagem?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/6e6a05a6-a128-4429-90c1-0919fec33e07" alt="Image3">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/9ab3a92d-3bb8-4e8f-8669-d7e9870f7383" alt="Image3">
 </p>
 
 4. Qual foi o montante total das tarifas cobradas por mês e por ano?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/1dad4eec-ffae-4f37-b3b4-6736872ac6ad" alt="Image4">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/45658ab6-321a-479d-9985-17a0ce7c95d1" alt="Image4">
 </p>
 
 5. Quantas viagens foram realizadas por ano, divididas pelos dias da semana?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/35c55fdc-78ee-4160-8173-5e129789e4eb" alt="Image5">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/0d6b5c70-0fd9-4311-ae03-43825275bfb8" alt="Image5">
 </p>
 
 6. Qual foi a velocidade média das viagens realizadas?
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/00e46e0d-c4d1-4f17-9bef-120ace677d4c" alt="Image6">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/57a5da78-5dea-4a99-a93b-878e27c88a29" alt="Image6">
 </p>
 
 # Clusterização
 
 <p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/21a05ad0-2874-45ea-a560-56fc451162b9" alt="Image7">
+  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/4397ec97-67ac-4556-950d-26d2b79c8c22" alt="Image7">
 </p>
 
 ### Cluster 0 | Regular
