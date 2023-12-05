@@ -48,13 +48,3 @@ Com base na coleta, limpeza e análise exploratória já realizada nos dados, ne
 3. **Aplicação do método de Elbow**: Técnica usada na análise de clusterização para determinar o número ideal de clusters em um conjunto de dados.
 4. **Configuração de parâmetros e execução do algortimo KMeans**: Ajustar os parâmetros do algoritmo de acordo com as características dos dados.
 5. **Avaliação dos resultados e Interpretação dos clusters**: Analise e interprete os clusters gerados para extrair insights úteis.
-
---- 
-### Cluster 0 | Regular
-Viagens tradizionais e proporcionais ao histórico
-### Cluster 1 | Viajante 
-Corridas mais distantes, com longa duração e mais caras
-### Cluster 2 | Altas Tarifas
-Viagens realizadas com alta dinamica no aplicativo
-
-
