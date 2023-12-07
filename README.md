@@ -23,7 +23,7 @@ Atributos | Definição
 `Endereço de Entrega` | Localização de destino da viagem (endereço).
 `Distância (milhas)` | Distância percorrida durante a viagem, frequentemente medida em milhas.
 `Valor da Tarifa` | Montante cobrado ao usuário pela viagem.
-`Moeda Tarifária` | A moeda na qual a tarifa foi cobrada (por exemplo, dólar, euro, etc.).
+`Moeda Tarifária` | A moeda na qual a tarifa foi cobrada (por exemplo, dólar, euro, etc).
 
 # Análise de dados & Visualizações
 
