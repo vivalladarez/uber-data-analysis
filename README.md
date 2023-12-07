@@ -1,13 +1,14 @@
 # uber-data-analysis 🚘 
-Identificar padrões de comportamento e preferências dos usuários do aplicativo Uber por meio da análise de dados de corridas, visando melhorar a oferta de serviços, aprimorar a experiência do usuário e aumentar a eficiência operacional da plataforma.
-1. Como a distância percorrida influencia no valor da tarifa e na duração da viagem?
-2. Qual foi o total de viagens completadas nos anos anteriores?
-3. Quais foram os valores máximos, mínimos e médios da tarifa, distância percorrida e duração da viagem?
-4. Qual foi o montante total das tarifas cobradas por mês e por ano?
-5. Quantas viagens foram realizadas por ano, divididas pelos dias da semana?
-6. Qual foi a velocidade média das viagens realizadas?
 
-### Atributos
+Este projeto tem como objetivo analisar dados das viagens da Uber para identificar padrões, tendências ou insights que possam melhorar a eficiência das viagens, compreender o comportamento dos usuários e otimizar a operação em áreas específicas.
+A análise concentra-se em identificar padrões de viagem sem rótulos predefinidos, configurando-se como um problema não supervisionado, e em segmentar os possíveis perfis de usuário por meio do algoritmo de aprendizado de máquina KMeans.
+Todos os dados utilizados são provenientes do consumo da própria autora do projeto que consente a liberação dessas informações, disponibilidados pela Uber.
+
+### Premissas sobre o Problema
+1.   Viagens mais longas podem ter uma correlação com um valor de tarifa mais alto;
+2.   A duração da viagem dependendo do tráfego na cidade naquele momento;
+3.   A velocidade média das viagens depende do horário/tráfego no momento
+
 
 Atributos | Definição
 --- | :---:
@@ -28,53 +29,22 @@ Atributos | Definição
 
 # Análise de dados & Visualizações
 
+Nesta etapa, será realizada uma análise exploratória dos dados para observar seus padrões e tendências, respondendo às seguintes perguntas:
+
 1. Como a distância percorrida influencia no valor da tarifa e na duração da viagem?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/f4d416fe-e1d0-482c-9f01-f636719ed072" alt="Image1">
-</p>
-
 2. Qual foi o total de viagens completadas nos anos anteriores?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/b3980c2e-3fe2-4aed-8826-b8d50e6deebc" alt="Image2">
-</p>
-
 3. Quais foram os valores máximos, mínimos e médios da tarifa, distância percorrida e duração da viagem?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/6e6a05a6-a128-4429-90c1-0919fec33e07" alt="Image3">
-</p>
-
 4. Qual foi o montante total das tarifas cobradas por mês e por ano?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/1dad4eec-ffae-4f37-b3b4-6736872ac6ad" alt="Image4">
-</p>
-
 5. Quantas viagens foram realizadas por ano, divididas pelos dias da semana?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/35c55fdc-78ee-4160-8173-5e129789e4eb" alt="Image5">
-</p>
-
 6. Qual foi a velocidade média das viagens realizadas?
-
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/00e46e0d-c4d1-4f17-9bef-120ace677d4c" alt="Image6">
-</p>
 
 # Clusterização
 
-<p align="center">
-  <img src="https://github.com/vivalladarez/uber-data-analysis/assets/146302874/21a05ad0-2874-45ea-a560-56fc451162b9" alt="Image7">
-</p>
+A clusterização é uma técnica de aprendizado não supervisionado que agrupa dados semelhantes em conjuntos, chamados de clusters. No contexto deste projeto usaremos a clusterização para segmentação de perfis de clientes.
+Com base na coleta, limpeza e análise exploratória já realizada nos dados, nesta etapa será realizo os seguintes passoa:
 
-### Cluster 0 | Regular
-Viagens tradizionais e proporcionais ao histórico
-### Cluster 1 | Viajante 
-Corridas mais distantes, com longa duração e mais caras
-### Cluster 2 | Altas Tarifas
-Viagens realizadas com alta dinamica no aplicativo
-
-
+1. **Seleção de características (features)**: Escolha as características mais relevantes para a análise de clusterização.
+2. **Normalização ou padronizaçã**o: Em alguns casos, é necessário normalizar ou padronizar os dados para que todas as características tenham o mesmo peso.
+3. **Aplicação do método de Elbow**: Técnica usada na análise de clusterização para determinar o número ideal de clusters em um conjunto de dados.
+4. **Configuração de parâmetros e execução do algortimo KMeans**: Ajustar os parâmetros do algoritmo de acordo com as características dos dados.
+5. **Avaliação dos resultados e Interpretação dos clusters**: Analise e interprete os clusters gerados para extrair insights úteis.
