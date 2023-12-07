@@ -1,8 +1,6 @@
 # uber-data-analysis 🚘 
 
-Este projeto tem como objetivo analisar dados das viagens da Uber para identificar padrões, tendências ou insights que possam melhorar a eficiência das viagens, compreender o comportamento dos usuários e otimizar a operação em áreas específicas.
-A análise concentra-se em identificar padrões de viagem sem rótulos predefinidos, configurando-se como um problema não supervisionado, e em segmentar os possíveis perfis de usuário por meio do algoritmo de aprendizado de máquina KMeans.
-Todos os dados utilizados são provenientes do consumo da própria autora do projeto que consente a liberação dessas informações, disponibilidados pela Uber.
+Este projeto tem como objetivo analisar dados das viagens do Uber para identificar padrões, tendências ou insights que possam melhorar a eficiência das viagens, compreender o comportamento dos usuários ou otimizar a operação em áreas específicas. A análise se concentra em segmentar usuários com base em seus padrões de viagem sem rótulos predefinidos, sendo um problema não supervisionado. Todos os dados utilizados são provenientes do consumo da própria autora do projeto que consente a liberação dessas informações, disponibilidados pela Uber através do aplicativo.
 
 ### Premissas sobre o Problema
 1.   Viagens mais longas podem ter uma correlação com um valor de tarifa mais alto;
@@ -41,10 +39,10 @@ Nesta etapa, será realizada uma análise exploratória dos dados para observar 
 # Clusterização
 
 A clusterização é uma técnica de aprendizado não supervisionado que agrupa dados semelhantes em conjuntos, chamados de clusters. No contexto deste projeto usaremos a clusterização para segmentação de perfis de clientes.
-Com base na coleta, limpeza e análise exploratória já realizada nos dados, nesta etapa será realizo os seguintes passoa:
+Com base na coleta, limpeza e análise exploratória já realizada nos dados, nesta etapa será realizo os seguintes passos:
 
 1. **Seleção de características (features)**: Escolha as características mais relevantes para a análise de clusterização.
-2. **Normalização ou padronizaçã**o: Em alguns casos, é necessário normalizar ou padronizar os dados para que todas as características tenham o mesmo peso.
+2. **Normalização ou padronização**: Em alguns casos, é necessário normalizar ou padronizar os dados para que todas as características tenham o mesmo peso.
 3. **Aplicação do método de Elbow**: Técnica usada na análise de clusterização para determinar o número ideal de clusters em um conjunto de dados.
 4. **Configuração de parâmetros e execução do algortimo KMeans**: Ajustar os parâmetros do algoritmo de acordo com as características dos dados.
 5. **Avaliação dos resultados e Interpretação dos clusters**: Analise e interprete os clusters gerados para extrair insights úteis.
